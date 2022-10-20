@@ -1,0 +1,14 @@
+﻿  App.c
+C:\Users\admin\source\repos\Payment Application\Payment Application\Application\App.c(63,52): warning C4133: 'function': incompatible types - from 'float *' to 'ST_terminalData_t *'
+C:\Users\admin\source\repos\Payment Application\Payment Application\Application\App.c(69,47): warning C4133: 'function': incompatible types - from 'float *' to 'ST_terminalData_t *'
+C:\Users\admin\source\repos\Payment Application\Payment Application\Application\App.c(90,64): warning C4020: 'recieveTransactionData': too many actual parameters
+C:\Users\admin\source\repos\Payment Application\Payment Application\Application\App.c(19,10): warning C4101: 'T_state': unreferenced local variable
+  Server.c
+C:\Users\admin\source\repos\Payment Application\Payment Application\Server\Server.c(14,1): warning C4029: declared formal parameter list different from definition
+  Generating Code...
+C:\Users\admin\source\repos\Payment Application\Payment Application\Server\Server.c(36): warning C4715: 'recieveTransactionData': not all control paths return a value
+C:\Users\admin\source\repos\Payment Application\Payment Application\Ex-Libraries\T_Database.h(28): warning C4716: 'listSavedTransactions': must return a value
+C:\Users\admin\source\repos\Payment Application\Payment Application\Server\Server.c(112): warning C4715: 'isAmountAvailable': not all control paths return a value
+C:\Users\admin\source\repos\Payment Application\Payment Application\Server\Server.c(102): warning C4715: 'isBlockedAccount': not all control paths return a value
+C:\Users\admin\source\repos\Payment Application\Payment Application\Server\Server.c(163): warning C4715: 'saveTransaction': not all control paths return a value
+  Payment Application.vcxproj -> C:\Users\admin\source\repos\Payment Application\x64\Debug\Payment Application.exe
